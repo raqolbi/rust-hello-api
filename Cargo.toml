@@ -1,0 +1,18 @@
+[package]
+name = "hello-api"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+# Web framework
+axum = "0.7"
+
+# Async runtime
+tokio = { version = "1", features = ["full"] }
+
+# JSON serialization
+serde = { version = "1", features = ["derive"] }
+
+# Logging (stdout-first)
+tracing = "0.1"
+tracing-subscriber = "0.3"

@@ -91,7 +91,7 @@ cp .env.example .env
 
 ### 2. Generate Docker artifacts
 
-Docker files are generated via the external generator project:
+Docker files are generated via the external generator project (https://github.com/raqolbi/rust-api-docker-generator):
 
 ```bash
 ./setup.sh
